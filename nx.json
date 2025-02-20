@@ -50,5 +50,6 @@
       "style": "css",
       "unitTestRunner": "jest"
     }
-  }
+  },
+  "plugins": ["./tools/plugins/implicit-libs.ts"]
 }
