@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@domain/models": ["libs/domain/models/src/index.ts"],
+      "@domain/ui": ["libs/domain/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
